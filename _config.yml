@@ -1,3 +1,10 @@
-remote_theme: jsjoberg/primer
 title: JS x
 description: Johan's page
+local: en_US
+
+remote_theme: jsjoberg/primer
+google_analytics: UA-152783128-1
+
+owner:
+        name: Johan Sjöberg
+        github: jsjoberg
