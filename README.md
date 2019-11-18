@@ -1,2 +1,2 @@
-## JSX
-# Trying to make a page here.
+# JS x
+Trying to make a page here.
