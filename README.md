@@ -1,2 +1,2 @@
-# JS x source
-This repository continas the source of my personal web page.
+#  Home Page Source Code
+This repository continas the source code for Johan's home page.
