@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Johan's CV
-permalink: /cv/
 ---
 
 # CV of Johan Sjöberg
