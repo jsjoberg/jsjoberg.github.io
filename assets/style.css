@@ -1,4 +1,115 @@
+/*
+
+Thanks to "Web Design in 4 minutes" by Jeremy Thomas [1]
+and "Pure CSS Animated Gradient Background" by Manuel Pinto [2]
+
+1. https://jgthms.com/web-design-in-4-minutes
+2. https://codepen.io/P1N2O/pen/pyBNzX
+
+*/
+
+@import 'https://fonts.googleapis.com/css?family=Open+Sans:300,400,500';
+
+:root {
+  --color-text: #566b78;
+  --color-text-strong: #333;
+  --color-text-header: #fff;
+}
+
 body {
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  padding: 1em; 
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", "Helvetica", "Arial", sans-serif;
+  line-height: 1.5;
+  color: var(--color-text);
+}
+
+h1,
+h2,
+h3 {
+  margin-top: 1em;
+  padding-top: 1em;
+  color: var(--color-text-strong);
+}
+
+strong {
+  color: var(--color-text-strong);
+}
+
+a {
+  color: hotpink;
+}
+
+code,
+pre {
+  background: #f5f7f9;
+  border-bottom: 1px solid #d8dee9;
+  color: #a7adba;
+}
+
+code {
+  padding: 2px 4px;
+  vertical-align: text-bottom;
+}
+
+pre {
+  padding: 1em;
+  border-left: 2px solid #69c;
+}
+
+header {
+  line-height: 1.2;
+  padding: 3vw 0;
+  text-align: center;
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+  0% { background-position: 0% 50% }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+header h1 {
+  color: var(--color-text-header);
+  font-size: 2.5em;
+  font-weight: 300;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+header a {
+  color: var(--color-text-header);
+  font-size: 0.6em;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+main {
+  margin: 0 auto;
+  max-width: 70ch;
+}
+
+footer {
+  margin: 2ch auto;
+  padding: 2ch 0;
+  text-align: center;
+}
+
+footer a {
+  font-size: 0.6em;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  text-decoration: none;
+	color: var(--color-text);
+}
+
+header a img, footer a img {
+  width: 1em;
+  height: 1em;
+  padding: 0 1ch 0 0;
 }
