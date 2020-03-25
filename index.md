@@ -2,9 +2,9 @@
 layout: default
 title: home page
 ---
+## Hi 😄
 Johan is a software engineer with experience in web and embedded Linux systems.
-
-  * [CV](cv/)
-  * [Email](email/)
-  * [GitHub profile](https://github.com/jsjoberg)
-  
+* [Blog](blog/)
+* [CV](cv/)
+* [Email](email/)
+* [GitHub](https://github.com/jsjoberg)

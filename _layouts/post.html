@@ -1,7 +1,8 @@
 {% include prelude.html %}
         <header>
                 <h1>{{ page.title }}</h1>
-                <a href="/"><img src="https://avatars.githubusercontent.com/u/43017?size=32"> Johan Sjöberg</a>
+                <h2>{{  page.date | date: '%B %d, %Y' }}</h2>
+                <a href="/blog/"><img src="https://avatars.githubusercontent.com/u/43017?size=32"> Johan Sjöberg</a>
         </header>
         <main>
                 {{ content }}
