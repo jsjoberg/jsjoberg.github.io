@@ -91,7 +91,8 @@ header a {
 
 main {
   margin: 0 auto;
-  max-width: 70ch;
+  max-width: 80ch;
+  padding: 0 2ch;
 }
 
 footer {
