@@ -1,10 +1,8 @@
 ---
-layout: default
-title: home page
+layout: home
+title: start page
 ---
-## Hi 😄
-Johan is a software engineer with experience in web and embedded Linux systems.
-* [Blog](blog/)
-* [CV](cv/)
-* [Email](email/)
-* [GitHub](https://github.com/jsjoberg)
+## Hi
+My name is Johan Sjöberg and I'm a software engineer. This page currently pretty empty, but the plan is to put interesting stuff here. 😄
+ 
+<a href="cv/">CV</a>, <a href="/email">Email</a>, <a href="https://github.com/jsjoberg">GitHub</a>

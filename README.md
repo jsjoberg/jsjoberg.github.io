@@ -1,2 +1,2 @@
 #  Home Page Source Code
-This repository continas the source code for Johan's home page.
+This repository contains the source code of my personal home page.

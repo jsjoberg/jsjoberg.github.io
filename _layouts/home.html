@@ -1,11 +1,13 @@
 {% include prelude.html %}
         <main>
 {{ content }}
+                <h2>Recent posts</h2>
                 <ul>
-{% for post in site.posts %}
+{% for post in site.posts limit: 5 %}
                         <li><a href="{{ post.url }}">{{  post.date | date: '%B %d, %Y' }} &dash; {{ post.title }}</a></li>
 {% endfor %}
                 </ul>
+                <a href="/blog">More posts</a>,
                 <a href="/feed.xml">RSS feed</a>
         </main>
 {% include postlude.html %}

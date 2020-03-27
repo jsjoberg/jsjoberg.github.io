@@ -4,21 +4,19 @@ title: My email
 permalink: /email/
 ---
 ## Riddle me this
-You can reached me by email, if you can read this 😋
+You can reach me by email, if you can read this. 😋
 <pre id="email">JavaScript protected</pre>
+
+
 <script>
-var el = document.getElementById("email"),
-    s = 'jemcjgimbg.sraoo@l',
-    n = s.length,
-    ms = s.split("").map(t => t.charCodeAt(0)),
-    mask = Array(n).join(0).split(0).map((0).valueOf, 63);
-(f => f(f, 0, mask))((f, k, xs) => {
-  el.textContent = String.fromCharCode.apply(null, xs);
-  setTimeout(() => {
-    var p = Math.abs(k - 20);
-    f(f, (k + 1) % 100, xs.map((k, i) =>
-      i === 5 * p % n ? ms[p % n] : i === (5 * p + 5) % n ? 63 : k
-    ));
-  }, 150);
-});
+var e = document.getElementById("email"),
+    d = "jemcjgimbg.sraoo@l".split("").map(t => t.charCodeAt(0)),
+    n = d.length,
+    f = (k, x) => {
+      e.textContent = String.fromCharCode.apply(null, x);
+      setTimeout(() => f((k+1)%n, x.map((c, i) =>
+        i === (5*k)%n ? d[k] : i === (5*k+5)%n ? d[i] : c
+      )), 150);
+    };
+f(0, d);
 </script>
