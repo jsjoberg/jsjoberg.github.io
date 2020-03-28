@@ -98,6 +98,12 @@ header a {
   text-decoration: none;
 }
 
+header a img {
+  width: 1em;
+  height: 1em;
+  padding: 0 1ch 0 0;
+}
+
 main {
   margin: 0 auto;
   max-width: 80ch;
@@ -108,18 +114,9 @@ footer {
   margin: 2ch auto;
   padding: 2ch 0;
   text-align: center;
-}
-
-footer a {
   font-size: 0.6em;
   letter-spacing: 0.2em;
   text-transform: uppercase;
   text-decoration: none;
 	color: var(--color-text);
-}
-
-header a img, footer a img {
-  width: 1em;
-  height: 1em;
-  padding: 0 1ch 0 0;
 }
