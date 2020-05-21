@@ -11,13 +11,13 @@ permalink: /cv/
 
 ### Bombardier
 * **Software Engineer**, September 2017 – February 2019  
-  Software development of mainline and industrial railway signalling systems in C++ on Linux and Solaris.
+  Software development on mainline and industrial railway signaling systems. Development work in C++ and SQL on Linux and Solaris. Analyzing halts of production systems for root cause. Testing and deploying fix for intersections on underground mining railway.
 
 * **Test Engineer**, September 2016 – September 2017  
-  Developing test specifications and automated test scripts for railway signalling systems.
+  Developing test specifications and automated test programs for mainline railway signaling systems. Designing scenarios to verify requirements. Program test scenarios in C# and TCL. Server administration of test environment with VMware ESXi, CentOS and Windows.
 
 *  **[Bachelor thesis](http://studentarbeten.chalmers.se/publication/238376-styrprogram-med-konfigurerbar-logik-for-spartrafik)**, March – June 2016  
-  Thesis work developing sophisticated rules to an computer platform used to control railway wayside object (i.e. turnouts). The rules guard against outside orders or send internal orders in user defined scenarios. Thesis served as a proof of concept of railway interlocking functionality in an already proved and economical platform.
+  Thesis work developing rules system on an computer platform used to control railway wayside object by receiving orders (i.e. throwing turnouts). The rules guard in user defined scenarios by generating internal orders or blocking external orders. Thesis served as a proof of concept of extending an proven platform with railway interlocking functionality.
 
 ### Semcon
 * **Intern**, January – March 2016  
