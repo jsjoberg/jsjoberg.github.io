@@ -7,21 +7,21 @@ permalink: /cv/
 
 ### Glooko
 * **Software Developer**, from February 2019  
-  Software development in C++ on embedded Linux, cloud back end in Python, desktop application for macOS and Windows in the diabetes healthcare field.
+  Software development in C and C++ on embedded Linux devices. Developing data extraction integration's from medical devices over USB, BLE and NFC. Developing cloud back end modules in Python for data extraction. Development on desktop applications for macOS and Windows.
 
 ### Bombardier
 * **Software Engineer**, September 2017 – February 2019  
-  Software development on mainline and industrial railway signaling systems. Development work in C++ and SQL on Linux and Solaris. Analyzing halts of production systems for root cause. Testing and deploying fix for intersections on underground mining railway.
+    Software development on railway signaling systems in C++ on mainly Linux and Solaris. Implementing new functionalities for line specific requirements. Analyzing halts from trail operation and production systems for root causes and fixing issues. Deploying fix on customer location in Chile. Worked on signaling systems for mining lines and ERTMS mainlines.
 
 * **Test Engineer**, September 2016 – September 2017  
-  Developing test specifications and automated test programs for mainline railway signaling systems. Designing scenarios to verify requirements. Program test scenarios in C# and TCL. Server administration of test environment with VMware ESXi, CentOS and Windows.
+  Designing test specifications and programs to verify requirements of mainline railway signaling systems. Developing automated tests in C# and TCL. Server administration of test environment using Jenkins, Linux, Windows and VMware ESXi.
 
 *  **[Bachelor thesis](http://studentarbeten.chalmers.se/publication/238376-styrprogram-med-konfigurerbar-logik-for-spartrafik)**, March – June 2016  
-  Thesis work developing rules system on an computer platform used to control railway wayside object by receiving orders (i.e. throwing turnouts). The rules guard in user defined scenarios by generating internal orders or blocking external orders. Thesis served as a proof of concept of extending an proven platform with railway interlocking functionality.
+  Thesis work developing rules system on an computer platform used to control railway wayside object by receiving orders (i.e. throwing turnouts). The rules guard in user defined scenarios by generating internal orders or blocking external orders. Thesis served as a proof of concept of extending an proven platform with railway interlocking functionality. Developing in C on Linux.
 
 ### Semcon
 * **Intern**, January – March 2016  
-  Development of pedagogical mobile game in Unity as part of a university course.
+  Development of pedagogical mobile game in C# and Unity as part of a university course.
 
 ### Copter
 * **Programmer**, March 2012 – April 2013  
@@ -29,10 +29,10 @@ permalink: /cv/
 
 ### Bluepin
 * **Programmer**, March – August 2015  
-  Part time job during university as a back end web development. Worked on client web sites in PHP and MySQL using Wordpress and Magento. Made mobile app in Apache Cordova. Basic Windows Active Directory administration.
+  Part time job during university as web developer. Worked on client web sites in PHP and MySQL using Wordpress and Magento. Made mobile app in Apache Cordova. Did basic Windows Active Directory administration.
 
 * **Trainee**,  November 2011 – February 2012  
-  PHP web development and Linux system administration.
+  Web development in PHP and Linux system administration.
 
 ### TeliaSonera
 * **Customer service advisor**, May – August 2007  
